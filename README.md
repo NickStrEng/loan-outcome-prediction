@@ -1,6 +1,8 @@
 # Startup guide
 
-Follow these simple steps to run the data, model training and evaluation pipeline for loan application outcome prediction.
+Follow these simple steps to run the data, model training and model evaluation pipeline for loan application outcome prediction.
+
+The input dataset `loan_data_raw.csv` was downloaded from Kaggle: https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset?resource=download
 
 ## Prerequisites
 
@@ -29,7 +31,6 @@ uv --version
 
 ### 2. Clone repository from GitHub
 
-
 ```bash
 # Clone from GitHub
 git clone https://github.com/NickStrEng/loan-outcome-prediction.git
@@ -52,4 +53,4 @@ This command:
 
 ## Build and evaluate models
 
-Just run the notebook end-to-end
+Just execute the notebook end-to-end
